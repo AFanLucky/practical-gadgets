@@ -1,13 +1,16 @@
 {
   "name": "practical-gadgets",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Record the encapsulated tool code used in daily development",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "package.json",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "rollup -c rollup.config.ts --configPlugin @rollup/plugin-typescript",
